@@ -50,3 +50,9 @@ a:active{
 .book,.book:hover,.book:active{
     color: white;
 }
+.c-img:hover{
+    border: 2px solid red;
+}
+.c-yumm:hover{
+    border: 2px solid white;
+}
