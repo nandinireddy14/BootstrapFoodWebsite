@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="node_modules\bootstrap\dist\css\bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<script src="https://kit.fontawesome.com/d4ffaea5fc.js" crossorigin="anonymous"></script>
+    <title>Bootstrap Assignment</title>
+</head>
+<body>
+
+
+  <nav class="navbar bg-white navbar-expand-lg p-2 fixed-top">
+    
+    <div class="container-fluid">
+      <a class="navbar-brand fs-1 fw-bold" href="#">Yummy <span class="text-danger fs-1 fw-bold">.</span></a>
+      <form class="d-flex d-block d-lg-none" role="search">
+        <button class="btn btn-danger" type="submit">Book a Table</button>
+      </form>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mt-1" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item mx-3">
+            <a class="nav-link fw-bold" aria-current="page" href="#HomeSection">Home</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link fw-bold" href="#AboutSection">About</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link fw-bold" href="#MenuSection">Menu</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link fw-bold" href="#EventsSection">Events</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link fw-bold" href="#ChefsSection">Chefs</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link fw-bold" href="#GallerySection">Gallery</a>
+          </li>
+          <li class="nav-item dropdown mx-3">
+            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item fw-bold" href="#">Action</a></li>
+              <li><a class="dropdown-item fw-bold" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item fw-bold" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link fw-bold" href="#ContactSection">Contact</a>
+          </li>
+        </ul>
+        
+      </div>
+      <form class="d-flex d-none d-lg-block" role="search">
+       <button class="btn btn-danger" type="submit"> <a  href="#BookaTableSection" class="book">Book a Table</a></button>
+      </form>
+    </div>
+    
+  </nav>
+
+  <section id="HomeSection" class="bg-secondary-subtle">
+    <div class="container p-4">
+      <div class="row">
+        <div class="d-md-none">
+          <img src="img\hero-img.png" alt="" class="w-100">
+        </div>
+        <div class="col-md-6 d-flex flex-column justify-content-center">
+          <h2 class="px-5 pt-1 fonty">ENJOY YOUR HEALTHY DELICIOUS FOOD</h2>
+           <p class="px-5 text-muted">Sed autem laudantium dolores.Voluptataem itaque ea consequatur eveniet.Enum quas beatae cumque eum quaerat.</p>
+            <div class="px-5"><button class="btn btn-danger"><a  href="#BookaTableSection" class="book">Book a Table</a></button>  
+              <a href="https://youtu.be/LXb3EKWsInQ" target="_self"><i class="bi bi-play-circle fs-3 text-danger p-2"></i>Watch Video</a>
+            </div>
+            
+        </div>
+        <div class="d-none d-md-inline col-md-6">
+          <img src="img\hero-img.png" alt="" class="w-100">
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <section id="AboutSection">
+    <p class="text-center text-secondary pt-4">ABOUT US</p>
+    <h2 class="text-center pb-4 fonty">LEARN MORE <span class="text-danger">ABOUT US</span> </h2>
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-7"><img src="img\about.jpg" alt="" class="w-100 h-75"></div>
+          <div class="col-lg-5">
+            <div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.          </p>
+              <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+              <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</p>
+            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+            </div>
+            <img src="img\about-2.jpg" alt="" class="w-100 h-25">
+          </div>
+        </div>
+    </div>
+    
+  </section>
+  <section id="cardSection">
+    <div class="container bg-secondary-subtle p-5">
+       <div class="row">
+        <div class="col-lg-3">
+          <div class="card bg-danger">
+            <div class="card-body">
+              <h5 class="card-title fs-3 text-white fw-bold">Why Choose Yummy?</h5>
+            <p class="card-text text-white">Lorem ipsum dolor sit amet, consectetur adipiscing , ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.</p>
+            <button class="btn btn-light text-danger">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column justify-content-center">
+              <div class="text-center p-3"><span class="bg-danger bg-opacity-10 rounded-circle text-center p-4 mx-5"><i class="bi bi-journal-richtext text-danger my-2"></i></span></div>
+              <p class="card-title text-center fs-4 py-3">Corporis voluptates officia eiusmod</p>
+            <p class="card-text text-center text-muted ">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+            
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column justify-content-center">
+              <div class="text-center p-3"><span class="bg-danger bg-opacity-10 rounded-circle text-center p-4 mx-5"><i class="bi bi-gem text-danger my-2"></i></span></div>
+              <p class="card-title text-center fs-4 py-3">Ullamco laboris ladore pan</p>
+            <p class="card-text text-center text-muted ">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+            
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column justify-content-center">
+              <div class="text-center p-3"><span class="bg-danger bg-opacity-10 rounded-circle text-center p-4 mx-5"><i class="bi bi-inboxes text-danger my-2"></i></span></div>
+              <p class="card-title text-center fs-4 py-3">Labore consequatur incidid dolore</p>
+            <p class="card-text text-center text-muted">Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+            
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </section>
+
+  <section id="MenuSection">
+    <p class="text-center text-secondary pt-4">OUR MENU</p>
+    <h2 class="text-center fonty">CHECK OUR <span class="text-danger">YUMMY MENU</span></h2>
+    <div class="container">
+      <div class="row p-2">
+      <div class="col-lg-4 d-flex flex-column align-items-center">
+        <img src="img\menu\menu-item-1.png" alt="" class="menu-img">
+      <h4>Magnam Tiste</h4>
+      <p class="text-muted">Lorem, deren, trataro, filede, nerada</p>
+      <p class="text-danger fw-bold fs-4">$5.95</p>
+      </div>
+
+      <div  class="col-lg-4 d-flex flex-column align-items-center">
+        <img src="img\menu\menu-item-2.png" alt="" class="menu-img">
+        <h4>Aut Luia</h4>
+        <p class="text-muted">Lorem, deren, trataro, filede, nerada</p>
+        <p class="text-danger fw-bold fs-4">$14.95</p>
+      </div>
+
+      <div  class="col-lg-4 d-flex flex-column align-items-center">
+        <img src="img\menu\menu-item-3.png" alt="" class="menu-img">
+        <h4>Est Eligendi</h4>
+        <p class="text-muted">Lorem, deren, trataro, filede, nerada</p>
+        <p class="text-danger fw-bold fs-4">$8.95</p>
+      </div>
+      
+    
+      <div class="col-lg-4 d-flex flex-column align-items-center">
+        <img src="img\menu\menu-item-3.png" alt="" class="menu-img">
+        <h4>Eos Luibusdam</h4>
+        <p class="text-muted">Lorem, deren, trataro, filede, nerada</p>
+        <p class="text-danger fw-bold fs-4">$12.95</p>
+      </div>
+      <div  class="col-lg-4 d-flex flex-column align-items-center">
+        <img src="img\menu\menu-item-4.png" alt="" class="menu-img">
+        <h4>Eos Luibusdam</h4>
+        <p class="text-muted">Lorem, deren, trataro, filede, nerada</p>
+        <p class="text-danger fw-bold fs-4">$12.95</p>
+      </div>
+      <div  class="col-lg-4 d-flex flex-column align-items-center">
+        <img src="img\menu\menu-item-5.png" alt="" class="menu-img">
+        <h4>Laboriosam Direva</h4>
+        <p class="text-muted">Lorem, deren, trataro, filede, nerada</p>
+        <p class="text-danger fw-bold fs-4">$9.95</p>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="bg-secondary-subtle">
+      <p class="text-center text-secondary pt-4">TESTIMONIALS</p>
+      <h2 class="text-center fonty">WHAT ARE THEY <span class="text-danger">SAYING ABOUT US</span></h2>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner text-center p-5">
+        <div class="carousel-item active">
+          <img class="rounded-circle shadow-1-strong mb-4"
+            src="img\testimonials\testimonials-4.jpg" alt="avatar"
+            style="width: 150px;" />
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <h5 class="mb-3">John Larson</h5>
+              <p>Entreprenuer</p>
+              <p class="text-muted font-italic">
+                <i class="fas fa-quote-left pe-2 text-danger"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
+                fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
+                doloremque.
+                <i class="fa-solid fa-quote-right text-danger ps-2"></i>
+              </p>
+            </div>
+          </div>
+          <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+            <li><i class="fas fa-star fa-sm"></i></li>
+            <li><i class="fas fa-star fa-sm"></i></li>
+            <li><i class="fas fa-star fa-sm"></i></li>
+            <li><i class="fas fa-star fa-sm"></i></li>
+            <li><i class="far fa-star fa-sm"></i></li>
+          </ul>
+        </div>
+        <div class="carousel-item">
+          <img class="rounded-circle shadow-1-strong mb-4"
+            src="img\testimonials\testimonials-3.jpg" alt="avatar"
+            style="width: 150px;" />
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <h5 class="mb-3">Jena Karlis</h5>
+              <p>Store Owner</p>
+              <p class="text-muted font-italic">
+                <i class="fas fa-quote-left pe-2 text-danger"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
+                fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
+                doloremque.
+                <i class="fa-solid fa-quote-right ps-2 text-danger"></i>
+              </p>
+            </div>
+          </div>
+          <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+            <li><i class="fas fa-star fa-sm"></i></li>
+            <li><i class="fas fa-star fa-sm"></i></li>
+            <li><i class="fas fa-star fa-sm"></i></li>
+            <li><i class="fas fa-star fa-sm"></i></li>
+            <li><i class="far fa-star fa-sm"></i></li>
+          </ul>
+        </div>
+        <div class="carousel-item">
+          <img class="rounded-circle shadow-1-strong mb-4"
+            src="img\testimonials\testimonials-2.jpg" alt="avatar"
+            style="width: 150px;" />
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <h5 class="mb-3">Sara Wilsson</h5>
+              <p>Designer</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2 text-danger"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
+                fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
+                doloremque.
+                <i class="fa-solid fa-quote-right text-danger ps-2"></i>
+              </p>
+            </div>
+          </div>
+          <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+            <li><i class="fas fa-star fa-sm"></i></li>
+            <li><i class="fas fa-star fa-sm"></i></li>
+            <li><i class="fas fa-star fa-sm"></i></li>
+            <li><i class="fas fa-star fa-sm"></i></li>
+            <li><i class="far fa-star fa-sm"></i></li>
+          </ul>
+        </div>
+        <div class="carousel-item">
+          <img class="rounded-circle shadow-1-strong mb-4"
+            src="img\testimonials\testimonials-1.jpg" alt="avatar"
+            style="width: 150px;" />
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <h5 class="mb-3">Saul Goodman</h5>
+              <p>CEO & Founder</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2 text-danger"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
+                fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
+                doloremque.
+                <i class="fa-solid fa-quote-right text-danger ps-2"></i>
+              </p>
+            </div>
+          </div>
+          <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+            <li><i class="fas fa-star fa-sm"></i></li>
+            <li><i class="fas fa-star fa-sm"></i></li>
+            <li><i class="fas fa-star fa-sm"></i></li>
+            <li><i class="fas fa-star fa-sm"></i></li>
+            <li><i class="far fa-star fa-sm"></i></li>
+          </ul>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  </section>
+
+  <section id="EventsSection">
+  <p class="text-center text-secondary pt-4">EVENTS</p>
+  <h2 class="text-center fonty">SHARE  <span class="text-danger">YOUR MOMENTS</span> IN OUR RESTAURANT</h2>
+
+  <div class="card-group py-4">
+    <div class="card m-2">
+      <img src="img\events-1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title fw-bold">Custom Parties</h4>
+        <p class="card-text fs-4 text-danger fw-bold">$99</p>
+        <p class="card-text"><small class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, laboriosam.</small></p>
+      </div>
+    </div>
+    <div class="card m-2">
+      <img src="img\events-2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title fw-bold">Birthday Parties</h4>
+        <p class="card-text fs-4 text-danger fw-bold">$499</p>
+        <p class="card-text"><small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit sint nemo maiores molestiae repellat! Reiciendis, dolor.</small></p>
+      </div>
+    </div>
+    <div class="card m-2">
+      <img src="img\events-3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title fw-bold">Private Parties</h4>
+        <p class="card-text fs-4 text-danger fw-bold">$289</p>
+        <p class="card-text"><small class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur expedita reprehenderit a unde neque!</small></p>
+      </div>
+    </div>
+  </div>
+</section>
+  
+ <section id="ChefsSection">
+    <div class="bg-secondary-subtle w-99">
+      <p class="text-center text-secondary pt-4">OUR CHEFS</p>
+      <h2 class="text-center fonty">OUR <span class="text-danger">PROFESSIONAL</span>  CHEFS</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4 p-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="img\chefs\chefs-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">Walter White</h5>
+                <p class="text-secondary">Master Chef</p>
+                <p class="card-text font-italic text-muted">Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img\chefs\chefs-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">Sarah Jhonson</h5>
+                <p class="text-secondary">Patissier</p>
+                <p class="card-text font-italic text-muted">Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img\chefs\chefs-3.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">William Anderson</h5>
+                <p class="text-secondary">Cook</p>
+                <p class="card-text font-italic text-muted">Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+  </section>  
+ <section id="BookaTableSection">
+  <div>
+    <p class="text-center text-secondary pt-4">BOOK YOUR STAY</p>
+    <h2 class="text-center fonty">BOOK <span class="text-danger">YOUR STAY</span>  WITH US</h2>
+    <div class="card mb-3 w-99 m-5">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="img\reservation.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8 bg-secondary-subtle">
+          <div class="card-body ">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 p-4"><input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name"></div>
+                <div class="col-lg-4 p-4"><input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Your Email"></div>
+                <div class="col-lg-4 p-4"><input type="number" class="form-control" id="exampleFormControlInput3" placeholder="Your Phone"></div>
+                <div class="col-lg-4 p-4"><input type="date" class="form-control" id="exampleFormControlInput4" placeholder="Date"></div>
+                <div class="col-lg-4 p-4"><input type="time" class="form-control" id="exampleFormControlInput5" placeholder="Time"></div>
+                <div class="col-lg-4 p-4"><input type="text" class="form-control" id="exampleFormControlInput6" placeholder="# of people"></div>
+                <div class="p-4">  <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Message"></textarea>
+                </div>
+                <div class="text-center"><button class="btn btn-danger">Book a Table</button></div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section>  
+
+<section id="GallerySection">
+  <div class="bg-secondary-subtle p-4">
+    <p class="text-center text-secondary pt-4">GALLERY</p>
+    <h2 class="text-center fonty">CHECK <span class="text-danger">OUR GALLERY</span></h2>
+    <div class="container">
+      <div class="row">
+          <div class=" col-md-4">
+                <img src="img\gallery\gallery-1.jpg" class="img-thumbnail m-2"/>
+          </div>
+          <div class="col-md-4">
+            <img src="img\gallery\gallery-2.jpg" class="img-thumbnail m-2" />
+      </div>
+      <div class="col-md-4">
+        <img src="img\gallery\gallery-3.jpg" class="img-thumbnail m-2" />
+  </div>
+  <div class="col-md-4">
+    <img src="img\gallery\gallery-4.jpg" class="img-thumbnail m-2"/>
+</div>
+<div class="col-md-4">
+<img src="img\gallery\gallery-5.jpg" class="img-thumbnail m-2" />
+</div>
+<div class="col-md-4">
+<img src="img\gallery\gallery-6.jpg" class="img-thumbnail" />
+</div>
+
+
+        
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <section id="ContactSection">
+    <p class="text-center text-secondary pt-4">CONTACT</p>
+    <h2 class="text-center fonty">NEED HELP? <span class="text-danger">CONTACT US</span></h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="bg-secondary-subtle p-3 m-2 d-flex flex-row justify-content-start align-items-center">
+            <div class="text-center">
+              <i class="fa-regular fa-address-card text-white bg-danger rounded-circle p-4"></i>
+            </div>
+            <div class="d-flex flex-column ms-4">
+              <h5 class="text-secondary fw-bold pt-2">Our Address</h5>
+              <p>A108 Adam Street, New York, NY 535022</p>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-6">
+          <div class="bg-secondary-subtle p-3 m-2 d-flex flex-row justify-content-start align-items-center">
+            <div class="text-center">
+              <i class="fa-solid fa-envelope text-white bg-danger rounded-circle p-4"></i>
+            </div>
+            <div class="d-flex flex-column ms-4">
+              <h5 class="text-secondary fw-bold pt-2">Email Us</h5>
+              <p>contact@example.com</p>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-6">
+          <div class="bg-secondary-subtle p-3 m-2 d-flex flex-row justify-content-start align-items-center">
+            <div class="text-center">
+              <i class="fa-solid fa-phone text-white bg-danger rounded-circle p-4"></i>
+            </div>
+            <div class="d-flex flex-column ms-4">
+              <h5 class="text-secondary fw-bold pt-2">Call Us</h5>
+              <p>+1 5589 55488 55</p>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-6">
+          <div class="bg-secondary-subtle p-3 m-2 d-flex flex-row justify-content-start align-items-center">
+            <div class="text-center">
+              <i class="fa-regular fa-address-card text-white bg-danger rounded-circle p-4"></i>
+            </div>
+            <div class="d-flex flex-column ms-4">
+              <h5 class="text-secondary fw-bold pt-2">
+                Opening Hours</h5>
+                <p> <span class="fw-bold">Mon-Sat: </span> 11AM - 23PM;<span class="fw-bold">Sunday: </span>  Closed
+              </p>
+            </div>
+          </div>
+          
+        </div>
+        <div class="shadow-lg  p-4 mb-5 pb-4">
+        <form>
+          <div class="container pt-4">
+              <div class="row">
+                <div class="mb-3 p-2 col-md-6">
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+                </div>
+                <div class=" mb-3 col-md-6 p-2">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email">
+                </div>
+                <div class="mb-3 p-2">
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject">
+                </div>
+                <div class="mb-3 p-2">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                </div>
+                <div class="text-center">
+                  <button class="btn btn-danger">Send Message</button>
+                </div>
+              </div>
+          </div>
+        </form>
+      </div>
+        
+
+        </div>
+
+        
+      </div>
+    </div>
+  </section>
+  
+ <section>
+  <div class="container-fluid bg-dark">
+    <div class="row p-4">
+      <div class="col-md-6 col-lg-3 p-2 d-flex flex-row">
+        <i class="bi bi-geo-alt pt-2 pe-2 text-white fs-2 me-2"></i>
+        <div class="d-flex flex-column justify-content-space-around">
+          <h1 class="fs-6 text-white">Address</h1>
+          <p class="fs-6 text-white">A108 Adam Street
+            New York, NY 535022 - US</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 p-2 d-flex flex-row">
+        <i class="bi bi-telephone pt-2 pe-2 text-white fs-2 me-2"></i>
+        <div class="d-flex flex-column justify-content-around">
+          <h1 class="fs-6 text-white">Reservations</h1>
+          <p class="fs-6 text-white"><span class="fw-bold">Phone:</span> +1 5589 55488 55<br>
+            <span class="fw-bold">Email:</span> info@example.com
+            </p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 p-2 d-flex flex-row">
+        <i class="bi bi-clock pt-2 pe-2 text-white fs-2 me-2"></i>
+        <div class="d-flex flex-column justify-content-space-around">
+          <h1 class="fs-6 text-white">Opening Hours</h1>
+          <p class="fs-6 text-white"><span class="fw-bold">Mon-Sat:</span> 11AM - 23PM
+            <span class="fw-bold">Sunday:</span> Closed</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 p-2 d-flex flex-column">
+        <h5 class="text-white">Follow Us</h5>
+        <div class="pt-2 m-2">
+          <i class="bi bi-twitter px-2 py-1 text-white fs-4 border border-light rounded-circle"></i>
+          <i class="bi bi-facebook px-2 py-1 pb-2 text-white fs-4 border border-light rounded-circle"></i>
+          <i class="bi bi-instagram px-2 py-1 pb-2  text-white fs-4 border border-light rounded-circle"></i>
+          <i class="bi bi-linkedin px-2 py-1 pb-2  text-white fs-4 border border-light rounded-circle"></i>
+        </div>
+
+        
+      </div>
+      <hr class="text-secondary d-none d-md-block">
+    <div class="pt-4">
+     <p class="text-white fs-6 text-center">© Copyright <span class="fw-bold">Yummy</span> All Rights Reserved<br>
+      Designed by BootstrapMade</p> 
+    </div>
+    </div>
+  </div>
+</section> 
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="node_modules\bootstrap\dist\js\bootstrap.bundle.js"></script>
+<script>
+  // Initialize the carousel
+  $(document).ready(function() {
+    $('#carouselExampleControls').carousel();
+  });
+</script>
+
+</body>
+
+
+
+</html>
